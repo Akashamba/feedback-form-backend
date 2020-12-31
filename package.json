@@ -9,31 +9,13 @@
   "author": "akash ambashankar",
   "license": "ISC",
   "dependencies": {
-    "anymatch": "^3.1.1",
-    "clone-response": "^1.0.2",
-    "decompress-response": "^3.3.0",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "firebase-tools": "^9.1.0",
-    "make-dir": "^3.1.0",
-    "mimic-response": "^1.0.1",
-    "minimist": "^1.2.5",
-    "mongodb": "^3.6.3",
-    "ms": "^2.1.3",
-    "nodemon": "^2.0.6",
-    "nopt": "^1.0.10",
-    "normalize-path": "^3.0.0",
-    "normalize-url": "^4.5.0",
-    "p-cancelable": "^1.1.0",
-    "picomatch": "^2.2.2",
-    "prepend-http": "^2.0.0",
-    "pupa": "^2.1.1",
-    "readdirp": "^3.5.0",
-    "responselike": "^1.0.2",
-    "semver-diff": "^3.1.1",
-    "signal-exit": "^3.0.3"
+    "mongodb": "^3.6.3"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Akashamba/feedback-form-backend.git"
